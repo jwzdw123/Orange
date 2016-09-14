@@ -17,7 +17,7 @@
             android:layout_marginStart="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="为您推荐"
+            android:text="根据您的健康状况，为您推荐"
             android:textSize="20sp"
             />
         <com.jude.rollviewpager.RollPagerView
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:text="热量：\n碳水化合物：\n水分：\n维生素：\n蛋白质："/>
+            android:text="数量：\n是否去皮："/>
 
         <TextView
             android:id="@+id/tv_nutri_num"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:text="热量：\n碳水化合物：\n水分：\n维生素：\n蛋白质："/>
+            android:text="1 — 2个\n应该去皮"/>
 
         <Button
             android:id="@+id/bt_share"
