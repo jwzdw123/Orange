@@ -31,17 +31,26 @@
         android:text="附近的美食："
         android:textSize="20sp"
         />
-    <ListView
-        android:id="@+id/lv_locate_business"
-        android:layout_below="@id/tv_nearFood"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="10dp"
-        android:padding="10dp"
-        android:scrollbarStyle="outsideOverlay"
-        tools:listitem="@layout/health_list_item_card"
-        />
+   <RelativeLayout
+       android:id="@+id/no1"
+       android:layout_below="@id/tv_nearFood"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp">
+
+       <com.orange.ifitdiet.common.MyImageView
+           android:id="@+id/iv_no1"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_marginTop="10dp"
+           android:src="@drawable/zzy"/>
+        <TextView
+            android:layout_toEndOf="@id/iv_no1"
+            android:layout_alignTop="@id/iv_no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="滋滋哟"/>
+   </RelativeLayout>
 
 </RelativeLayout>
