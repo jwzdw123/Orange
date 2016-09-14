@@ -17,7 +17,7 @@ public class SupperActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_breakfast);
+        setContentView(R.layout.activity_supper);
         mRollViewPager = (RollPagerView) findViewById(R.id.roll_view_pager);
 
         //设置播放时间间隔
